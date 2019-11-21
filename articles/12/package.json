@@ -1,0 +1,17 @@
+{
+  "name": "graphql-server",
+  "version": "0.0.1",
+  "description": "GraphQL Server for the JSMonday 12 article",
+  "main": "./src/main.js",
+  "author": "Michele Riva <ciao@micheleriva.it>",
+  "license": "Unlicense",
+  "private": false,
+  "scripts": {
+    "start": "node ./src/main.js"
+  },
+  "dependencies": {
+    "express": "4.16.4",
+    "express-graphql": "0.8.0",
+    "graphql": "14.2.1"
+  }
+}

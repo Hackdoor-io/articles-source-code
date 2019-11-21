@@ -1,0 +1,28 @@
+{
+  "name": "jscream",
+  "version": "1.0.1",
+  "description": "A simple library build for a JSMonday article.",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jsmonday/jscream"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run test && npm run build",
+    "test": "jest --coverage"
+  },
+  "author": "Michele Riva <ciao@micheleriva.it>",
+  "license": "Unlicense",
+  "devDependencies": {
+    "@types/jest": "24.0.13",
+    "codecov": "3.5.0",
+    "jest": "24.8.0",
+    "ts-jest": "24.0.2",
+    "typescript": "3.5.1"
+  }
+}
